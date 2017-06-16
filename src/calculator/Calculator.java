@@ -22,19 +22,19 @@ public class Calculator {
      return a * b;
  }
  
- public int divide(int a, int b){
-     if(b % 0 == 0 ){
-         System.out.println("Error! Dividing by zero is not allowed."); 
-         return 0;
-     } else {
-     return a / b;
-     }
+// public int divide(int a, int b){
+//     if(b % 0 == 0 ){
+//         System.out.println("Error! Dividing by zero is not allowed."); 
+//         return 0;
+//     } else {
+//     return a / b;
+//     }
     public static void main(String[] args) {
        Calculator myCalculator = new Calculator();
         System.out.println(myCalculator.add(5, 7));
         System.out.println(myCalculator.subtract(45, 11));
         System.out.println(myCalculator.multiply(5, 6));
-        System.out.println(myCalculator.divide(6, 2));
+//        System.out.println(myCalculator.divide(6, 2));
     }
     
 }
